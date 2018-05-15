@@ -1,0 +1,1 @@
+.\packages\AliaSQL.1.4.2.0317\tools\AliaSQL.exe rebuild "(localdb)\MSSQLLocalDB" aliasql .\db\aliasql
