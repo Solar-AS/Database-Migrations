@@ -67,6 +67,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Migrations\M152638759928817_AddDinnersTable.cs" />
+    <Compile Include="Migrations\M152638826976297_AlterDinnersTable.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup />
