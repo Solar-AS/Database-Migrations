@@ -44,6 +44,10 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Data\NerdDinnerContext.cs" />
+    <Compile Include="Migrations\201805151313416_AddDinnersTable.cs" />
+    <Compile Include="Migrations\201805151313416_AddDinnersTable.Designer.cs">
+      <DependentUpon>201805151313416_AddDinnersTable.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\Dinner.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -51,6 +55,11 @@
   <ItemGroup>
     <None Include="App.config" />
     <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Migrations\201805151313416_AddDinnersTable.resx">
+      <DependentUpon>201805151313416_AddDinnersTable.cs</DependentUpon>
+    </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
