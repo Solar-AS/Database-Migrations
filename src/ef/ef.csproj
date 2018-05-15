@@ -48,6 +48,10 @@
     <Compile Include="Migrations\201805151313416_AddDinnersTable.Designer.cs">
       <DependentUpon>201805151313416_AddDinnersTable.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201805151318416_AlterDinnersTable.cs" />
+    <Compile Include="Migrations\201805151318416_AlterDinnersTable.Designer.cs">
+      <DependentUpon>201805151318416_AlterDinnersTable.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\Dinner.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -59,6 +63,9 @@
   <ItemGroup>
     <EmbeddedResource Include="Migrations\201805151313416_AddDinnersTable.resx">
       <DependentUpon>201805151313416_AddDinnersTable.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201805151318416_AlterDinnersTable.resx">
+      <DependentUpon>201805151318416_AlterDinnersTable.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
