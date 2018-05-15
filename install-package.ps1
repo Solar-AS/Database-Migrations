@@ -1,0 +1,1 @@
+nuget install aliasql -OutputDirectory .\packages\
